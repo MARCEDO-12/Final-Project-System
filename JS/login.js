@@ -43,7 +43,7 @@ document.querySelector(".sign-in form").addEventListener("submit", function (e) 
         localStorage.setItem("isLoggedIn", "true");
 
         // 🔗 Redirect to Laptop Store page
-        window.location.href = "../HTML/index.html"; 
+        window.location.href = "../HTML/system.html"; 
     } else {
         alert("Incorrect email or password");
     }
